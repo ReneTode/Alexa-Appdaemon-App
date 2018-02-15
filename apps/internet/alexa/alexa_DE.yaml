@@ -2,12 +2,12 @@ alexa_api: # appdaemon skill
   module: alexa_api
   class: alexa_api
   devices:
-    wohnzimmer: amzn1.ask.device.AENY62KPFHMU3ZBU7ZET6EKKPLJMNZ4E4F5U67YZFD3T664DPH6VOILDWFLDS7K22QDXBZ2Z2T3Y2RT3YPJMVZFEYY4K2QH2EUWKU6ID733JTUUWOYH4ASAOBB2OWGMXTERMJ4DPRJ6EYKNS24U3EUI2O24A
-    kueche: amzn1.ask.device.AENY62KPFHMU3ZBU7ZET6EKKPLJKPYZG3FRDTXRFZYSTLIK4VYFBLDK4ULYM3YEYMYLIRVQ4WVK6MDBTJVPCZCUCZUCGHZAT7GWNHUQUGGS75EYUDDBIDZNOAVBM4EIVTEYGL6LFU7WYYMLG2UT3LXVS7M3A
-    schlaffzimmer: amzn1.ask.device.AENY62KPFHMU3ZBU7ZET6EKKPLJPCRMAW7Y2TJNEH3L3NGNPOEZ73SCRTTLYNR4JVILH4XF6SK66QIM4KFXMLJCPFNCMKKRFV6EVKGWD7QXWUQKAWINULSKOAAEVQYDOB7DPHV2YMZP2ODI4GWYZ43XVTEYQ
-    speicher: amzn1.ask.device.AENY62KPFHMU3ZBU7ZET6EKKPLJNFRTWDK2XUK2PX63E2MYOYNMUCXRUAGAEHGYERR2Y7K3WMI37IDOKKDWJNICZO3RO4ZN6IKXR7NMJAL5KQJWUHBX6JEH4QOBEXSXB7TQZW7UKGWSHZU2LW56JIPP4ZUSQ
-  logfile: /mnt/usbdrive/pi/HAlogs/alexaAD.log
-  responselogfile: /mnt/usbdrive/pi/HAlogs/alexaResponse.log
+    wohnzimmer: Your_device_id_see_readme_how_to_get_it
+    kueche: Your_device_id_see_readme_how_to_get_it
+    schlaffzimmer: Your_device_id_see_readme_how_to_get_it
+    speicher: Your_device_id_see_readme_how_to_get_it
+  logfile: /path/to/you/log/alexaAD.log
+  responselogfile: /path/to/your/log/alexaResponse.log
   language: DE
   temperatureUnit: "Grad"
   logging: "True"
