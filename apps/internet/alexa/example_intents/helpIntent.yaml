@@ -1,0 +1,20 @@
+helpIntent:
+  module: helpIntent
+  class: helpIntent
+  Error: <p>Etwas geht falsch, ich kann der kommandos nicht finden</p>
+  Start:
+    - <p>Ich kann folgendes fuer dich tun:</p> 
+    - <p>Ich kann:</p>
+    - <p>Du kannst mir fragen diese sachen zu tun:</p> 
+  List:
+    - <p>auf youtube suchen,</p>
+    - <p>ein video zeigen,</p>
+    - <p>ein kamera zeigen,</p>
+    - <p>der temperatur sagen,</p>
+    - <p>sagen oder ein lampe an oder aus ist,</p>
+    - <p>sagen wo jemand ist oder was er macht,</p>
+    - <p>sagen oder der Heizdecke von Olinde an ist,</p>
+    - <p>der zusammenfassung fuer renee mitteilen,</p>
+    - <p>ein geschichte erzaehlen,</p>
+    - <p>oder nochmal hilfe fragen.</p>
+    - <p>Fuer ein list von kommandos,</p><p>sag kommandos</p>

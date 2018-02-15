@@ -1,0 +1,19 @@
+temperatureStateIntent:
+  module: temperatureStateIntent
+  class: temperatureStateIntent
+  language: DE
+  temperatureUnit: "Grad"
+  textLine:
+    - "Der temperatur von der {{location}} ist "
+    - "Auf dieses moment ist es in oder auf der {{location}} "
+    - "Im moment ist der temperatur "
+  Error: <p>Ich habe nicht richtig verstanden welche temperatur du wissen wollte</p>
+  sensors:
+    wohnzimmer: sensor.huiskamer_box_4_1
+    schlaffzimmer: sensor.slaapkamer_1_30_0
+    terrasse: sensor.vijver_repeater_7_0
+    keller: sensor.arduino_kelder_1_0
+    teich: sensor.vijver_repeater_7_1
+    aquarium: sensor.arduino_kelder_1_0
+    kueche: sensor.keuken_10_0
+

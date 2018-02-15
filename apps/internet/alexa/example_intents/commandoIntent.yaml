@@ -1,0 +1,40 @@
+commandoIntent:
+  module: commandoIntent
+  class: commandoIntent
+  Error: <p>Etwas geht falsch, ich kann der kommandos nicht finden</p>
+  Start:
+    - <p>Du kannst folgendes zu mir sagen, und dabei kannst du renee, wohnzimmer oder terrasse ersaetzen</p>
+    - <p>Der ganze Kommandoliste ist, und dabei kannst du renee, wohnzimmer oder terrasse ersaetzen</p>
+    - <p>Hier kommen alle kommandos, und dabei kannst du renee, wohnzimmer oder terrasse ersaetzen</p>
+  List:
+    - <p>kommandos von 1 wort<p>
+    - <p> </p>
+    - <p>hilfe</p>
+    - <p>youtube</p>
+    - <p>Kamera</p>
+    - <p>geschichte</p>
+    - <p>ja</p>
+    - <p>nein</p>
+    - <p>nichts</p>
+    - <p>tschoe</p>
+    - <p>kurze frage wie:</p>
+    - <p>was kann ich machen</p>
+    - <p>was kann ich fragen</p>
+    - <p>ist wohnzimmer lampe an</p>
+    - <p>ist mein bett warm</p>
+    - <p>was ist der temperatur</p>
+    - <p>Wo ist renee</p>
+    - <p>was tut renee</p>
+    - <p>was macht renee</p>
+    - <p>kleine mitteilungen wie:</p>
+    - <p>suche auf youtube</p>
+    - <p>zeige video eins</p>
+    - <p>renee ist wach</p>
+    - <p>oder langere satze wie:</p>
+    - <p>was kann ich noch mehr sagen</p>
+    - <p>was kann ich noch mehr fragen</p>
+    - <p>was ist der temperatur in wohnzimmer</p>
+    - <p>ist der wohnzimmer lampe an</p>
+    - <p>Ich kann nicht alle kommandos mitteilen, da wir dann morgen noch hier sitzen. </p>
+    - <p>Wann etwas nicht klappt, sag es renee.</p>
+    - <p>Er macht es fuer dir in ordnung.</p>
