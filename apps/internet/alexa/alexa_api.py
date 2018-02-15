@@ -1,9 +1,6 @@
 import appdaemon.plugins.hass.hassapi as hass
 import random
 import datetime
-import urllib
-from bs4 import BeautifulSoup
-from bs4 import SoupStrainer
 
 class alexa_api(hass.Hass):
 
@@ -56,10 +53,10 @@ class alexa_api(hass.Hass):
             card = None
             self.alexalog("dialog is in progress",100,"*")
         elif self.dialog == "COMPLETED":
-            #try:
-            intentResponse =  self.getIntentResponse() #eval("self." + self.intentname)() #
-            #except:
-            #    intentResponse = "<p>So wie es ausseht is diese moeglichkeit noch nicht in lindon einprogrammiert, oder es gibt ein fehler.</p>"
+            try:
+              intentResponse =  self.getIntentResponse() 
+            except:
+                intentResponse = self.random_arg(self.args["responseError"])
             if intentResponse == "stop":
                 ############################################
                 # user used stop intent, stop conversation
@@ -94,7 +91,7 @@ class alexa_api(hass.Hass):
         if speech != None:
             speech = self.cleanup_text(speech)
         if card:
-            response = self.my_alexa_response(EndSession = endSession, DialogDelegate = dialogDelegate, speech = speech, card = True, title = "Lindon", content = cardContent)
+            response = self.my_alexa_response(EndSession = endSession, DialogDelegate = dialogDelegate, speech = speech, card = True, title = self.args["cardTitle"], content = cardContent)
             self.alexalog(" ",100,"X")
             self.alexalog(" ",100,"X")
             self.alexalog(" ",100,"X")
@@ -122,11 +119,11 @@ class alexa_api(hass.Hass):
                 splitintent = self.intentname.split(".")
                 self.intentname = splitintent[1]
         device = data["context"]["System"]["device"]["deviceId"]
-        self.devicename = "ein unbekannte platze"
+        self.devicename = self.args["device"]["unknownDevice"]
         for devicename,deviceid in self.args["devices"].items():
             if deviceid == device:
                 self.devicename = devicename
-        if self.devicename == "ein unbekannte platze":
+        if self.devicename == self.args["device"]["unknownDevice"]:
             self.log(device) 
         ############################################
         # get slots out of the data
