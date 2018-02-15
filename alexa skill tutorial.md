@@ -1,5 +1,5 @@
 1) Go to developer.amazon.com and login.
-![Alt text]("alexa tutorial1.jpg")
+![Alt text]('alexa tutorial1.jpg')
 2) chose developer console at the top right
 ![Alt text](alexa tutorial2.jpg)
 3) chose Alexa
