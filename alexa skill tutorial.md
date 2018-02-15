@@ -14,13 +14,13 @@ to use and configure this app i expect people to have the following:
 4) basic understanding from lists [] and dictionairies {} 
 
 Allthough it is probably also possible to use this with Hassio, i dont know how configuring on that platform would go.
-for that reason i dont support tjis app on that platform.
+for that reason i dont support this app on that platform.
 
 ## Part 1 configuring Appdaemon
 
-This is the most simple part from the total.
-All we have to do is edit the appdaemon.yaml
-In the section appdaemon we have to add 2 lines:
+This is the most simple part from the total.  
+All we have to do is edit the appdaemon.yaml  
+In the section appdaemon we have to add 2 lines:  
 ```
   api_key: Your_password
   api_port: any_port
@@ -30,17 +30,17 @@ if you dont have any idea i suggest using 6061 or 5051
 
 ## Part 2 configuring NGINX
 
-if you dont have NGINX installed before you need to install NGINX. (sudo apt-get install nginx)
-this part can only work when you dont have ssl installed in home assistant.
-most people only have 1 outside IP (the router) and so there is only 1 https port available.
-to connect to Alexa we need https so we need a way to split up that port.
-the way to do that is like this:
-https://yourname.duckdns.org goes to http://internalIP:8123 (home assistant)
-https://yourname.duckdns.org/api/appdaemon/*.* goes to http://internalIP:yourAPIport/api/appdaemon
-i configured it this way (probably not the best or cleanest way but it works)
-after installing NGINX
-find the file /etc/nginx/sites-enabled/default and edit it.
-my configuration is like this:
+if you dont have NGINX installed before you need to install NGINX. (sudo apt-get install nginx)  
+this part can only work when you dont have ssl installed in home assistant.  
+most people only have 1 outside IP (the router) and so there is only 1 https port available.  
+to connect to Alexa we need https so we need a way to split up that port.  
+the way to do that is like this:  
+https://yourname.duckdns.org goes to http://internalIP:8123 (home assistant)  
+https://yourname.duckdns.org/api/appdaemon/*.* goes to http://internalIP:yourAPIport/api/appdaemon  
+i configured it this way (probably not the best or cleanest way but it works)  
+after installing NGINX  
+find the file /etc/nginx/sites-enabled/default and edit it.  
+my configuration is like this:  
 ```
 server {
         listen 80;
@@ -75,9 +75,9 @@ server {
 
 }
 ```
-Remember if you also want the dashboard reached outside your network, you must also add a configuration part for that here.
-I dont use dashboards outside my own network so thats why i dont have that included.
-After you have set this up Alexa should be able to reach your appdaemon.
+Remember if you also want the dashboard reached outside your network, you must also add a configuration part for that here.  
+I dont use dashboards outside my own network so thats why i dont have that included.  
+After you have set this up Alexa should be able to reach your appdaemon.  
 
 ## Part 3 the skill
 
@@ -174,4 +174,53 @@ an example from an intent looks like:
           ]
 }
 ```
+If you want to add 1 of the example Intents you need to find the files that go with that intent.  
+the file with the extention .intent has the intent and needs to be pasted between the intent brackets.  
+the files with the extention .types have to be pasted between the types brackets.  
+the files with the extention .prompts go to the prompts bracket.  
+the files with the .dialogintent extention go to the dialog intent brackets.  
 
+make sure that you get them all, and that you seperate them with commas between the brackets.  
+but also make sure that if you add several intents, you dont add slottypes twice.  
+
+## part 5 the app
+
+all intent apps look like this:
+```
+import appdaemon.plugins.hass.hassapi as hass
+import random
+
+class AnyNameIntent(hass.Hass):
+
+    def initialize(self):
+        return
+
+    def getIntentResponse(self, slots, devicename):
+        ############################################
+        # here comes the code what the intent should do
+        # it should also always returnt the text that
+        # alexa should speak when the task is done
+        ############################################
+        text = "any text"
+        return text
+
+    def random_arg(self,argName):
+        ############################################
+        # pick a random text from a list
+        ############################################
+        if isinstance(argName,list):
+            text = random.choice(argName)
+        else:
+            text = argname
+        return text
+```
+with the yaml file that belongs to it in the same directory:
+```
+AnyNameIntent:
+  module: AnyNameIntent
+  class: AnyNameIntent
+```
+The name AnyNameIntent should also be the name from the py file.  
+That name should be identical to the intentname you did chose in the skill developer.  
+Remember that it is capital sensitive.  
+I suggest to keep names like ...Intent to make sure you always know the difference between normal apps and intent apps.   
