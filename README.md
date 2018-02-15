@@ -6,3 +6,4 @@ at this moment i am creating the github.
 next steps:
 - adding an installation tutorial
 - adding english version for the yaml files.
+- adding videos
