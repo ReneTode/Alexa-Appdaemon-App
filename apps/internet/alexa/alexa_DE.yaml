@@ -1,11 +1,13 @@
 alexa_api: # appdaemon skill
   module: alexa_api
   class: alexa_api
+  cardTitle: Your Card Title
   devices:
-    wohnzimmer: Your_device_id_see_readme_how_to_get_it
-    kueche: Your_device_id_see_readme_how_to_get_it
-    schlaffzimmer: Your_device_id_see_readme_how_to_get_it
-    speicher: Your_device_id_see_readme_how_to_get_it
+    YOUR_FRIENDLY_NAME1: Your_device_id_see_readme_how_to_get_it
+    YOUR_FRIENDLY_NAME2: Your_device_id_see_readme_how_to_get_it
+    YOUR_FRIENDLY_NAME3: Your_device_id_see_readme_how_to_get_it
+    YOUR_FRIENDLY_NAME4: Your_device_id_see_readme_how_to_get_it
+    unknownDevice: ein unbekannte platze
   logfile: /path/to/you/log/alexaAD.log
   responselogfile: /path/to/your/log/alexaResponse.log
   language: DE
