@@ -30,41 +30,48 @@ picture 11
 we now have a basic skill.
 to this we can add intents and slottypes as much as we like.
 the skill in total looks like:
+```
 {
  "languageModel": {"intents": [], "types":[],  "invocationName": "Andrew"},
  "prompts": [],
  "dialog": {"intents": []}
 }
+```
 between the brackets [] we can add our stuff as commaseperated lists.
 
 an example from a "type" looks like
-      {"name": "mylocations", "values": 
+```
+{"name": "mylocations", "values": 
           [
           {"id": null, "name": {"value": "livingroom ", "synonyms": []}},
           {"id": null, "name": {"value": "bedroom", "synonyms": []}},
           {"id": null, "name": {"value": "pond", "synonyms": []}},
           {"id": null, "name": {"value": "aquarium", "synonyms": []}}
           ]
-       }
+ }
+ ```
+ 
 an example from an intent looks like:
-      {"name": "temperatureStateIntent",
-        "samples": 
-              [
-              "what is the temperature in {location}",
-              "how warm is it in {location}",
-              "what temperature has {location}",
-              "tell me the temperature",
-              "what is the temperature"
-             ],
-        "slots": 
-             [
-            {"name": "location",
-              "type": "mylocations",
-              "samples": 
-                   [
-                   "{location}"
-                   ]
-              }
-              ]
-         }
+```
+{"name": "temperatureStateIntent",
+    "samples": 
+          [
+          "what is the temperature in {location}",
+          "how warm is it in {location}",
+          "what temperature has {location}",
+          "tell me the temperature",
+          "what is the temperature"
+          ],
+    "slots": 
+          [
+          {"name": "location",
+           "type": "mylocations",
+           "samples": 
+                [
+                "{location}"
+                ]
+          }
+          ]
+}
+```
 
