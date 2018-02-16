@@ -1,0 +1,7 @@
+setBedOlindeOffIntent:
+  module: setBedOlindeOffIntent
+  class: setBedOlindeOffIntent
+  switch: switch.slaapkamer_1_30_12
+  switchedText:
+      - <p>ok, Olinde ich habe dein heizdecke ausgeschaltet, geniess der weitere nacht.</p><p>Wann du es nochmal kalt bekommt kannst du es einfach wieder anschalten</p>
+      - <p>Dein Heizdecke ist jetzt aus, geniess der weitere nacht.</p><p>Wann du es nochmal kalt bekommt kannst du es einfach wieder anschalten</p>

@@ -1,0 +1,36 @@
+{
+"name": "searchYoutubeIntent",
+"confirmationRequired": false,
+"prompts": {},
+"slots": 
+    [
+    {
+    "name": "searchfielda",
+    "type": "mysearchterms",
+    "elicitationRequired": true,
+    "confirmationRequired": false,
+    "prompts": {"elicitation": "Elicit.Intent-searchYoutubeIntent.IntentSlot-searchfielda"}
+    },
+    {
+    "name": "searchfieldb",
+    "type": "mysearchterms",
+    "elicitationRequired": false,
+    "confirmationRequired": false,
+    "prompts": {}
+    },
+    {
+    "name": "searchfieldc",
+    "type": "mysearchterms",
+    "elicitationRequired": false,
+    "confirmationRequired": false,
+    "prompts": {}
+    },
+    {
+    "name": "searchfieldd",
+    "type": "mysearchterms",
+    "elicitationRequired": false,
+    "confirmationRequired": false,
+    "prompts": {}
+    }
+    ]
+}

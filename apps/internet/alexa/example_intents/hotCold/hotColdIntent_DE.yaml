@@ -1,0 +1,14 @@
+hotColdIntent:
+  module: hotColdIntent
+  class: hotColdIntent
+  wohnzimmer:
+    thermostats:
+      - input_number.huiskamerthermostaata
+      - input_number.huiskamerthermostaatb
+      - input_number.huiskamerthermostaatc
+      - input_number.huiskamerthermostaatd
+      - input_number.huiskamerthermostaate
+  kueche:
+    thermostats:
+      - input_number.keukenthermostaata
+      - input_number.keukenthermostaatb

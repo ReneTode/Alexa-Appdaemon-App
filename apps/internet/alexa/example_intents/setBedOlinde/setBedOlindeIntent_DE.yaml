@@ -1,0 +1,7 @@
+setBedOlindeIntent:
+  module: setBedOlindeIntent
+  class: setBedOlindeIntent
+  switch: switch.slaapkamer_1_30_12
+  switchedText:
+    - <p>ok, Olinde ich habe dein heizdecke angeschaltet</p>
+    - <p>Dein Heizdecke ist jetzt an, aber du weiss es braucht etwas zeit um warm zu werden.</p>

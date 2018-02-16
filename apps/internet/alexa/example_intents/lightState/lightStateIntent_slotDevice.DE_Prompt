@@ -1,0 +1,7 @@
+{
+"id": "Elicit.Intent-lightStateIntent.IntentSlot-device",
+"variations": 
+    [
+    {"type": "PlainText", "value": "von welches gerät oder sensor willst du der status wissen?"}
+    ]
+}

@@ -1,0 +1,7 @@
+{
+"id": "Elicit.Intent-viewCameraIntent.IntentSlot-location",
+"variations": 
+    [
+    {"type": "PlainText", "value": "Welche Kamera willst du sehen?"}
+    ]
+}

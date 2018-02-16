@@ -1,0 +1,34 @@
+woIsSomeoneIntent:
+  module: woIsSomeoneIntent
+  class: woIsSomeoneIntent
+  Error: <p>Es tut mir leit, aber uber {{person}} habe ich noch kein information gesammelt</p>
+  inBed:
+    - <p>{{person}} liegt im bett</P>
+    - <p>{{person}} ist im schlaffzimmer</p>
+  kellerTime:
+    - <p>{{person}} ist vermutlich im keller, da der keller im moment geoeffnet ist.</p>
+    - <p>{{person}} ist meistens im keller, wann der keller geoeffnet ist.</p>
+  diner:
+    - <p>Es ist zeit zum essen.</p><p>Ich hoffe das {{person}} ein gute mahlzeit hat.</p>
+    - <p>{{person}} ist bestimmt am essen.</p>
+  Olinde:
+    somethingElse:
+      - <p>Ich habe keine ahnung</p>
+      - <p>Ist sie nicht bei der fernseher?</p>
+    couch:
+      - <p>Um diese zeit liegt sie meistens auf der couch</p>
+      - <p>Es ist ihre ruhe stunde.</p><p>Ich hoffe das sie auf der couch liegt</p>
+    cooking:
+      - <p>Um diese zeit macht sie meistens ds essen fertig</p>
+      - <p>Ich denke in der keuche</p>
+  Rene:
+    somethingElse:
+      - <p>Ich habe keine ahnung wo renee ist</p>
+      - <p>Ist er nicht hinter der Computer?</p>
+    couch:
+      - <p>Um diese zeit liegt er meistens auf der couch</p>
+      - <p>Es ist kurz nach das essen.</p><p>Ich denke das er auf der couch liegt</p>
+  Other:
+    somethingElse:
+      - <p>Ich habe keine ahnung wo {{person}} ist</p>
+      - <p>Ich denke das {{person}} irgendwo in der gegend ist.</p>

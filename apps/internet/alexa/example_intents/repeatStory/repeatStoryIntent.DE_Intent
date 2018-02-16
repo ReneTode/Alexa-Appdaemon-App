@@ -1,0 +1,16 @@
+{
+"name": "repeatStoryIntent",
+"samples": 
+    [
+    "wiederhole geschichte",
+    "wiederhol der geschichte",
+    "geschichte wiederholen",
+    "geschichte nochmal",
+    "erzähle der geschichte nochmal",
+    "letzte geschichte nochmal",
+    "wiedehole letzte geschichte",
+    "erzähle der letzte geschichte nochmal",
+    "erzähl mir der letzte geschichte"
+    ],
+"slots": []
+}

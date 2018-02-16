@@ -1,0 +1,17 @@
+viewCameraIntent:
+  module: viewCameraIntent
+  class: viewCameraIntent
+  CamShowTime: 30
+  CameraList:
+    garten: dash_terrascam
+    terrasse: dash_hoofdterrascam
+    keller: dash_kellercam
+  Error:
+    - Es tuet mir leit aber etwas ist falsch gegangen
+    - Leider meldet lindon ein fehler 
+  normalResponse:
+    - <p>ok, ich habe der kamera von {{location}} auf der tablet gezeigt</p>
+    - <p>ok, de {{location}} kamera ist jetzt auf das dashboard</p>
+  noCamResponse:
+    - <p>Sorry, aber diese kamera kann ich nicht finden</p>
+    - <p>Leider kan ich der kamera {{location}} nicht finden</p>

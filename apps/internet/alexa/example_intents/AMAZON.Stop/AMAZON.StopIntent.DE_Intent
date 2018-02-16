@@ -1,0 +1,17 @@
+{
+"name": "AMAZON.StopIntent",
+"samples": 
+    [
+    "danke",
+    "ich danke dir",
+    "das war alles",
+    "bis nächste mal",
+    "danke alexa",
+    "nein",
+    "nein danke",
+    "tschoe",
+    "tschö",
+    "tschüs",
+    "nichts"
+    ]
+}

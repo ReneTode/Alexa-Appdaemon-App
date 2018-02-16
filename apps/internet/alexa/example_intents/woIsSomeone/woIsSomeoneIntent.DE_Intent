@@ -1,0 +1,19 @@
+{
+"name": "woIsSomeoneIntent",
+"samples": 
+    [
+    "Wo ist {person}",
+    "Wo {person} ist"
+    ],
+"slots": 
+    [
+    {
+    "name": "person",
+    "type": "AMAZON.DE_FIRST_NAME",
+    "samples": 
+        [
+        "{person}"
+        ]
+    }
+    ]
+}

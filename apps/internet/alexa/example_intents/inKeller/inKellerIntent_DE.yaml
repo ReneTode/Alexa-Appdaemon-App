@@ -1,0 +1,17 @@
+inKellerIntent:
+  module: inKellerIntent
+  class: inKellerIntent
+  datafile: /mnt/usbdrive/pi/HAlogs/aanwezigheid.txt
+  newdatafile: /mnt/usbdrive/pi/HAlogs/newaanwezigheid.txt
+  persons:
+    frank: 38
+    sven: 619
+    markus: 434
+    falk: 592
+    kevin: 519
+    arthur: 355
+    vati: 158
+    iris: 493
+    uwe: 271
+    alex: 435
+    tanja: 1

@@ -1,0 +1,17 @@
+showYoutubeIntent:
+  module: showYoutubeIntent
+  class: showYoutubeIntent
+  VideoShowTime: 180
+  YoutubeVideoList:
+    - dash_youtube_single1
+    - dash_youtube_single2
+    - dash_youtube_single3
+    - dash_youtube_single4
+    - dash_youtube_single5
+    - dash_youtube_single6
+  normalResponse:
+    - <p>ok, ich habe der video auf der tablet gezeigt</p>
+    - <p>ok, der video ist jetzt auf das dashboard</p>
+  Error:
+    - Es tuet mir leit aber etwas ist falsch gegangen
+    - Leider meldet lindon ein fehler 

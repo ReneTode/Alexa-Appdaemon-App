@@ -1,0 +1,11 @@
+{
+"name": "setBedOlindeIntent",
+"samples": 
+    [
+    "mach mein decke an",
+    "mach mein bett warm",
+    "schalte mein decke an",
+    "schalte mein bett an"
+    ],
+"slots": []
+}

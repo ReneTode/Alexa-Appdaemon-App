@@ -1,0 +1,19 @@
+{
+"name": "goodmorningIntent",
+"samples": 
+    [
+    "{person} ist wach",
+    "{person} ist aus bett",
+    "dass {person} wach ist",
+    "dass {person} aus bett ist",
+    "Gutentag",
+    "Gutetag",
+    "Gute tag",
+    "ich bin wach",
+    "dass ich wach bin"
+    ],
+"slots": 
+    [
+    {"name": "person", "type": "AMAZON.DE_FIRST_NAME"}
+    ]
+}

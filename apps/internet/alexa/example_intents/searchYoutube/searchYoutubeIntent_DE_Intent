@@ -1,0 +1,37 @@
+{
+"name": "searchYoutubeIntent",
+"samples": 
+    [
+    "um youtube über {searchfielda}",
+    "um youtube",
+    "suchen auf youtube",
+    "youtube",
+    "um youtube über {searchfielda} {searchfieldb}",
+    "um youtube über {searchfielda} {searchfieldb} {searchfieldc}",
+    "um youtube über {searchfielda} {searchfieldb} {searchfieldc} {searchfieldd}",
+    "suche auf youtube"
+    ],
+"slots": 
+    [
+    {
+    "name": "searchfielda",
+    "type": "mysearchterms",
+    "samples": 
+        [
+        "{searchfielda}"
+        ]
+    },
+    {
+    "name": "searchfieldb",
+    "type": "mysearchterms"
+    },
+    {
+    "name": "searchfieldc",
+    "type": "mysearchterms"
+    },
+    {
+    "name": "searchfieldd",
+    "type": "mysearchterms"
+    }
+    ]
+}

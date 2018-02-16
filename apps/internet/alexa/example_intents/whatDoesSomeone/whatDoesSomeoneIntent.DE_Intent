@@ -1,0 +1,24 @@
+{
+"name": "whatDoesSomeoneIntent",
+"samples": 
+    [
+    "was macht {person}",
+    "was ist {person} am machen",
+    "was tut {person}",
+    "etwas uber ein person sagen",
+    "was {person} macht",
+    "was {person} tut",
+    "was {person} am machen ist"
+    ],
+"slots": 
+    [
+    {
+    "name": "person",
+    "type": "AMAZON.DE_FIRST_NAME",
+    "samples": 
+        [
+        "{person}"
+        ]
+    }
+    ]
+}

@@ -119,11 +119,11 @@ class alexa_api(hass.Hass):
                 splitintent = self.intentname.split(".")
                 self.intentname = splitintent[1]
         device = data["context"]["System"]["device"]["deviceId"]
-        self.devicename = self.args["device"]["unknownDevice"]
+        self.devicename = self.args["devices"]["unknownDevice"]
         for devicename,deviceid in self.args["devices"].items():
             if deviceid == device:
                 self.devicename = devicename
-        if self.devicename == self.args["device"]["unknownDevice"]:
+        if self.devicename == self.args["devices"]["unknownDevice"]:
             self.log(device) 
         ############################################
         # get slots out of the data

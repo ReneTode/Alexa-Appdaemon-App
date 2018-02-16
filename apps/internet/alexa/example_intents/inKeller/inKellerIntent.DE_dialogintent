@@ -1,0 +1,15 @@
+{
+"name": "inKellerIntent",
+"confirmationRequired": false,
+"prompts": {},
+"slots": 
+    [
+    {
+    "name": "person",
+    "type": "AMAZON.DE_FIRST_NAME",
+    "elicitationRequired": true,
+    "confirmationRequired": false,
+    "prompts": {"elicitation": "Elicit.Intent-inKellerIntent.IntentSlot-person"}
+    }
+    ]
+}

@@ -1,0 +1,43 @@
+whatDoesSomeoneIntent:
+  module: whatDoesSomeoneIntent
+  class: whatDoesSomeoneIntent
+  entityID: sensor.kellertime
+  entityState: "ja"
+  Error: <p>{{person}}, uh, {{person}} sagst du?</p><p> da weiss ich leider nichts von.</p><p>Dass kannst du besser renee fragen</p>
+  event_ja:
+    frank:
+      - <p>Ist er nicht am schlafen?</p>
+      - <p>ist er nicht da?</p><p> vielleicht schlaefft er jetzt zu hause.</p>
+      - <p>Hast du bei der toilette geguckt?</p>
+    vati:
+      - <p>Der ist vielleicht unterwegs<p>
+      - <p>Huh... wass?<p>
+    rene:
+      - <p>Der ist vielleicht bier holen<p>
+      - <p>Er ist auf seine eigene planete, geschichten abholen fuer Olinde<p>
+    olinde:
+      - <p>Ist sie das lager am aufraumen?</p>
+      - <p>Etwas zum Trinken an es einschenken?</p><p>Olinde, renee will bestimmt auch noch wass.<p>
+    marjolijn:
+      - <p>Sie ist in ihre eigene welt</p>
+      - <p>Sie sitzt bestimmt auf ihre eigene platze</p>
+    sven:
+      - <p>Der ist vielleicht am arbeiten</p>
+      - <p>Keine ahnung, ich habe doch kein augen!</p>
+    markus:
+      - <p>Was, wer? </p><p>Gibts die auch noch?</p>
+      - <p>Lebt die noch?</p>
+      - <p>Der ist bestimmt mit Ricoh am kuscheln</p>
+  event_nee:
+    notHousehold: 
+      - <p>Der keller ist im moment zu, deshalb kann ich ueber {{person}} nichts sagen</p>
+      - <p>Wann der keller zu ist, weiss ich ueber {{person}} nichts</p>
+    Household: 
+      - <p>Information ueber was {{person}} macht ausserhalb kellerzeiten, bin ich noch am sammeln</p>
+      - <p>Im moment habe ich noch nicht alle information da uber {{person}}</p>
+  household:
+    - rene
+    - olinde
+    - farah
+    - marjolijn
+    - fara

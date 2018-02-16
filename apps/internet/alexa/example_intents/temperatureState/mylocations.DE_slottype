@@ -1,0 +1,11 @@
+{
+"name": "mylocations",
+"values": 
+     [
+     {"id": null, "name": {"value": "wohnzimmer", "synonyms": []}},
+     {"id": null, "name": {"value": "keller", "synonyms": []}},
+     {"id": null, "name": {"value": "speicher", "synonyms": []}},
+     {"id": null, "name": {"value": "terrasse", "synonyms": []}},
+     {"id": null, "name": {"value": "schlaffzimmer", "synonyms": []}}
+     ]
+}

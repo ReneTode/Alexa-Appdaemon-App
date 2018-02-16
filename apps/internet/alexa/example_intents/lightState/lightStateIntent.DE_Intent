@@ -1,0 +1,24 @@
+{
+"name": "lightStateIntent",
+"samples": 
+    [
+    "ist der {device} an",
+    "ist der {device} aus",
+    "was ist der staus von {device}",
+    "was ist der letze meldung von {device}",
+    "wie ist es mit {device}",
+    "ein status",
+    "status"
+    ],
+"slots": 
+    [
+    {
+    "name": "device",
+    "type": "mydevices",
+    "samples": 
+        [
+        "{device}"
+        ]
+        }
+    ]
+}

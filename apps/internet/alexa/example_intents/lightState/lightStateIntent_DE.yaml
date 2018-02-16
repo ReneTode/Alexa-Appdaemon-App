@@ -1,0 +1,26 @@
+lightStateIntent:
+  module: lightStateIntent
+  class: lightStateIntent
+  language: DE
+  temperatureUnit: "Grad"
+  textLine:
+    - "Der status von {{device}} ist "
+    - "{{device}} ist auf diese moment "
+  Error: <p>Ich habe nicht richtig verstanden welches geraet oder sensor du wissen wollte</p>
+  unreadableState: "unlesbar fuer mich"
+  entities:
+    wohnzimmer temperature: sensor.huiskamer_box_4_1
+    schlaffzimmer temperature: sensor.slaapkamer_1_30_0
+    terrasse temperature: sensor.vijver_repeater_7_0
+    keller temperature: sensor.arduino_kelder_1_0
+    teich temperature: sensor.vijver_repeater_7_1
+    aquarium temperature: sensor.arduino_kelder_1_0
+    kueche temperature: sensor.keuken_10_0
+    wohnzimmer lampe: input_boolean.woonkamer_verlichting
+    esszimmer lampe: input_boolean.eetkamer_verlichting
+    keller lampe: input_boolean.keller_lights
+    radio: input_boolean.swr3
+    kamera terrasse: sensor.foscam_voor_last_error
+    speaker funktion: sensor.soundloopruntime
+    wasserstand zeltingen: sensor.waterstand_zeltingen
+    thermostat keuche: input_number.keukenthermostaata

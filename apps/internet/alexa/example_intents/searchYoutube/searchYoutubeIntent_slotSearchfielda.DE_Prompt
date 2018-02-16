@@ -1,0 +1,7 @@
+{
+"id": "Elicit.Intent-searchYoutubeIntent.IntentSlot-searchfielda",
+"variations": 
+    [
+    {"type": "PlainText", "value": "nach was muss ich suchen?"}
+    ]
+}

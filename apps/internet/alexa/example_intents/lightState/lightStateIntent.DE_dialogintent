@@ -1,0 +1,15 @@
+{
+"name": "lightStateIntent",
+"confirmationRequired": false,
+"prompts": {},
+"slots": 
+    [
+    {
+    "name": "device",
+    "type": "mydevices",
+    "elicitationRequired": true,
+    "confirmationRequired": false,
+    "prompts": {"elicitation": "Elicit.Intent-lightStateIntent.IntentSlot-device"}
+    }
+    ]
+}

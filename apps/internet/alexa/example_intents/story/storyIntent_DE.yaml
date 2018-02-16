@@ -1,0 +1,5 @@
+storyIntent:
+  module: storyIntent
+  class: storyIntent
+  storydir: "/mnt/usbdrive/pi/appdaemon/appdaemon/conf/apps/internet/alexa/geschichte/"
+  Error: <p>Es tut mir leit, aber ich kann keine neue geschichte finden im moment</p>

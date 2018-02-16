@@ -1,0 +1,14 @@
+sleepIntent:
+  module: sleepIntent
+  class: sleepIntent
+  switch: switch.slaapkamer_1_30_12
+  "on":
+    - <p>Ja Olinde.</p><p>Lindon sagt mir das dein heizdecke angeschaltet ist.</p> <say-as interpret-as='interjection'>hurra</say-as>.
+    - <say-as interpret-as='interjection'>hi hi</say-as>. <p>Willst du wieder kuscheln?</p><p>Ich denke das deine heizdecke warm ist.</p><p>Lindon sagt mir das.</p>
+    - <say-as interpret-as='interjection'>halleluja</say-as>. <p>Lindon sagt mir das dein heizdecke angeschaltet ist.</p>
+    - <say-as interpret-as='interjection'>ich glaub mich laust der affe</say-as>. <p>Aber du hast glueck.</p><p>Lindon hat mir gesagt das er es angeschaltet hat</p>
+  "off":
+    - <say-as interpret-as='interjection'>Oh mein gott</say-as>. <say-as interpret-as='interjection'>iiieh</say-as>. <p>Nein, meine <emphasis level='strong'>liebe</emphasis>, es ist leider eiskallt in deine bett</p>
+    - <p>Nein ich glaube nicht.</p><p>Aber, <say-as interpret-as='interjection'>kopf hoch</say-as>. renee macht das bestimmt in ordnung fuer dich</p>
+    - <say-as interpret-as='interjection'>oh oh</say-as>.<p>Ich denke das etwas falsch gelaufen ist, wann du jetzt waerme erwartet.</p><p><say-as interpret-as='interjection'>ohne scheiss</say-as>. Lindon sagt das dein bett kalt ist</p>
+

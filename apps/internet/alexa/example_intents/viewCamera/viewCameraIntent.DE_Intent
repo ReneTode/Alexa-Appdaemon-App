@@ -1,0 +1,23 @@
+{
+"name": "viewCameraIntent",
+"samples": 
+    [
+    "um Kamera in {location}",
+    "um Kamera",
+    "um mir ein kamera zu zeigen",
+    "ein kamera zeigen",
+    "kamera zeigen",
+    "Kamera"
+    ],
+"slots": 
+    [
+    {
+    "name": "location",
+    "type": "mylocations",
+    "samples": 
+        [
+        "{location}"
+        ]
+    }
+    ]
+}

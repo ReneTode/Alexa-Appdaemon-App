@@ -1,0 +1,26 @@
+searchYoutubeIntent:
+  module: searchYoutubeIntent
+  class: searchYoutubeIntent
+  dashboarddir: /mnt/usbdrive/pi/appdaemon/appdaemon/conf/dashboards/
+  VideoWidgetsOverviewDash:
+    - "vid1"
+    - "vid2"
+    - "vid3"
+    - "vid4"
+    - "vid5"
+    - "vid6"
+    - "vid7"
+  VideoWidgetsSingleVideoDash:
+    - "vida1"
+    - "vida2"
+    - "vida3"
+    - "vida4"
+    - "vida5"
+    - "vida6"
+    - "vida7"
+  normalResponse:
+    - <p>ok, ich habe der suche von {{search}} auf der tablet gezeigt</p>
+    - <p>ok, der {{search}} ist jetzt auf das dashboard</p>
+  Error:
+    - Es tuet mir leit aber etwas ist falsch gegangen
+    - Leider meldet lindon ein fehler 

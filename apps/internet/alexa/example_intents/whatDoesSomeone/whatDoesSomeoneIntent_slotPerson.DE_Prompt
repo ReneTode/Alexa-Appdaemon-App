@@ -1,0 +1,7 @@
+{
+"id": "Elicit.Intent-whatDoesSomeoneIntent.IntentSlot-person",
+"variations": 
+    [
+    {"type": "PlainText", "value": "sorry, aber ich habe der name nicht gehört, wer meinst du?"}
+    ]
+}

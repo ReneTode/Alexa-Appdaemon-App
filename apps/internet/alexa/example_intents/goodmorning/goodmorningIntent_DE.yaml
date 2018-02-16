@@ -1,0 +1,5 @@
+goodmorningIntent:
+  module: goodmorningIntent
+  class: goodmorningIntent
+  language: DE
+  temperatureUnit: "Grad"

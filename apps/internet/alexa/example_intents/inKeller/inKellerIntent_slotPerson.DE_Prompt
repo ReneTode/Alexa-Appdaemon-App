@@ -1,0 +1,8 @@
+{
+"id": "Elicit.Intent-inKellerIntent.IntentSlot-person",
+"variations": 
+    [
+    {"type": "PlainText", "value": "wer meinst du?"},
+    {"type": "PlainText", "value": "wer ist da?"}
+    ]
+}

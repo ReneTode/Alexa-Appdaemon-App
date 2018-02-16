@@ -1,0 +1,10 @@
+{
+"name": "sleepIntent",
+"samples": 
+    [
+    "ist mein bett warm",
+    "is mein bett warm",
+    "oder mein bett warm ist"
+    ],
+"slots": []
+}
