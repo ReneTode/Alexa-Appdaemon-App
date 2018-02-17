@@ -1,0 +1,14 @@
+{
+"name": "helpIntent",
+"samples": 
+    [
+    "help",
+    "what can i say",
+    "what more can i say",
+    "what more can i ask",
+    "what can i ask"
+    ],
+"slots": 
+    [
+    ]
+}

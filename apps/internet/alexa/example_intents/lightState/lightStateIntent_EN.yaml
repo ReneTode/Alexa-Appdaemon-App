@@ -1,0 +1,22 @@
+lightStateIntent:
+  module: lightStateIntent
+  class: lightStateIntent
+  language: EN
+  temperatureUnit: "degree"
+  textLine:
+    - "The state from {{device}} is "
+    - "{{device}} is at this moment "
+  Error: <p>I didnt understand which device or sensor you want the state from</p>
+  unreadableState: "not known to me"
+  entities:
+    livingroom temperature: sensor.huiskamer_box_4_1
+    bedroom temperature: sensor.slaapkamer_1_30_0
+    terras temperature: sensor.vijver_repeater_7_0
+    pond temperature: sensor.vijver_repeater_7_1
+    aquarium temperature: sensor.arduino_kelder_1_0
+    livingroom lights: input_boolean.woonkamer_verlichting
+    diningroomlights: input_boolean.eetkamer_verlichting
+    radio: input_boolean.swr3
+    terras camera: sensor.foscam_voor_last_error
+    speaker funktion: sensor.soundloopruntime
+    thermostat kitchen: input_number.keukenthermostaata

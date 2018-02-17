@@ -1,0 +1,8 @@
+{
+"name": "myfeelings",
+"values": 
+     [
+     {"id": null, "name": {"value": "warm", "synonyms": []}},
+     {"id": null, "name": {"value": "cold", "synonyms": []}}
+     ]
+}

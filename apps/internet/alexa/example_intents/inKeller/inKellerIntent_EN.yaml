@@ -1,8 +1,8 @@
 inKellerIntent:
   module: inKellerIntent
   class: inKellerIntent
-  datafile: /mnt/usbdrive/pi/HAlogs/aanwezigheid.txt
-  newdatafile: /mnt/usbdrive/pi/HAlogs/newaanwezigheid.txt
+  datafile: /path/to/your/log/dir/aanwezigheid.txt
+  newdatafile: /path/to/your/log/dir/newaanwezigheid.txt
   persons:
     frank: 38
     andrew: 619

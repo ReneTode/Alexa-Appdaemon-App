@@ -1,0 +1,15 @@
+{
+"name": "AMAZON.StopIntent",
+"samples": 
+    [
+    "thank you",
+    "thanks",
+    "Thats all",
+    "see you next time",
+    "thank you alexa",
+    "no",
+    "no thanks",
+    "bye",
+    "nonthing"
+    ]
+}

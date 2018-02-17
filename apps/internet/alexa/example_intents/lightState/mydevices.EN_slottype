@@ -1,0 +1,12 @@
+{
+"name": "mydevices",
+"values": 
+     [
+     {"id": null, "name": {"value": "wohnzimmer temperature", "synonyms": []}},
+     {"id": null, "name": {"value": "schlaffzimmer temperature", "synonyms": []}},
+     {"id": null, "name": {"value": "wohnzimmer lampe", "synonyms": []}},
+     {"id": null, "name": {"value": "kamera terrasse", "synonyms": []}},
+     {"id": null, "name": {"value": "thermostat kueche", "synonyms": []}},
+     {"id": null, "name": {"value": "radio", "synonyms": []}}
+     ]
+}

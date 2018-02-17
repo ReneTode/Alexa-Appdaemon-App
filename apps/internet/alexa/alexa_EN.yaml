@@ -1,0 +1,39 @@
+alexa_api: # appdaemon skill
+  module: alexa_api
+  class: alexa_api
+  cardTitle: Your Card Title
+  devices:
+    YOUR_FRIENDLY_NAME1: Your_device_id_see_readme_how_to_get_it
+    YOUR_FRIENDLY_NAME2: Your_device_id_see_readme_how_to_get_it
+    YOUR_FRIENDLY_NAME3: Your_device_id_see_readme_how_to_get_it
+    YOUR_FRIENDLY_NAME4: Your_device_id_see_readme_how_to_get_it
+    unknownDevice: an unknown place
+  logfile: /path/to/you/log/alexaAD.log
+  responselogfile: /path/to/your/log/alexaResponse.log
+  language: DE
+  temperatureUnit: "degree"
+  logging: "True"
+  launchRequest:
+    - <p>Hello, are you in {{device}} again?</p> <p>How can I help you?</p>
+    - <p>Hi, how is live in {{device}}?</p> <p>What can i do for you?</p>
+    - <p>Hey, you are in {{device}}.</p> <p>what can i do?</p>
+    - <p>Morning. Nice that you are in {{device}} again,</p> <p>What do you wish me to do?</p>
+    - <p>I say hello to everyone in {{device}}</p><p>can i help you with anything?</p>
+  nextConversationQuestion:
+    - <p>What can I do for you?</p>
+    - <p>How would you like me to help you? </p>
+  intentEnd:
+    - <p>Can I do anything else for you?</p>
+    - <p>Do you want me to do anything else?</p>
+    - <p>Can I help you with something else?</p>
+    - <p>Is there anything else I can do for you?</p>
+  conversationEnd:
+    - See you next time
+    - Bye
+    - See you
+    - Todeloo
+    - Good day
+    - Have a nice day
+  responseError:
+    - Sorry, something has gone wrong
+    - I am sorry to tell you that i have an error

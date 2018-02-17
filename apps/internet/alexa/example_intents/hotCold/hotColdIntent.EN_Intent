@@ -1,0 +1,14 @@
+{
+"name": "hotColdIntent",
+"samples": 
+    [
+    "I am feeling {feeling}",
+    "it is {feeling}",
+    "its {feeling}",
+    "I think it is {feeling}"
+    ],
+"slots": 
+    [
+    {"name": "feeling", "type": "myfeelings"}
+    ]
+}

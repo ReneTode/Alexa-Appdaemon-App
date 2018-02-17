@@ -1,0 +1,20 @@
+helpIntent:
+  module: helpIntent
+  class: helpIntent
+  Error: <p>something is wrong, i can find the help function</p>
+  Start:
+    - <p>I can do the following things for you</p> 
+    - <p>I can:</p>
+    - <p>You can ask me to do:</p> 
+  List:
+    - <p>search on youtube,</p>
+    - <p>show you a video,</p>
+    - <p>show you a camera,</p>
+    - <p>tell you a temperature,</p>
+    - <p>tell you or a light on or off is,</p>
+    - <p>tell you where someone is or what he does,</p>
+    - <p>tell or the heatingblanket on is,</p>
+    - <p>make a summary from important stuff,</p>
+    - <p>tell a story,</p>
+    - <p>tell this help list 1 more time.</p>
+    - <p>For a list from commands,</p><p>say commands</p>

@@ -1,11 +1,12 @@
 # Tutorial
 
-This tutorial has 5 parts
+This tutorial has 6 parts
 1) The configuration from Appdaemon
 2) The configuration from NGINX as server before Appdaemon and Homeassistant
 3) The configuration from Amazon developer (the skill)
 4) Adding intents to the skill
 5) Addings Intent apps to Appdaemon
+6) Usage and tips
 
 To use and configure this app i expect people to have the following:
 1) Appdaemon working and configured for normal use
@@ -263,3 +264,30 @@ The name AnyNameIntent should also be the name from the py file.
 That name should be identical to the intentname you did chose in the skill developer.  
 Remember that it is capital sensitive.  
 I suggest to keep names like ...Intent to make sure you always know the difference between normal apps and intent apps.   
+
+## Usage and tips.
+
+### Device names.  
+When you start using this Alexa wont have any friendly names for the devices you own and use.  
+Those friendly names need to be set in the base yaml.  
+If you call a new device the first time then alexa will say its an unknown place, and put an entry in your log.
+That entry contains the device ID given by amazon. copy that ID to the yaml and give it a logical name (livingroom for example)  
+From that moment on the device is known with that friendly name.
+
+### Using slot names in the text.  
+Sometimes you want Alexa to repeat the slot name. for instance:  
+You: Alexa, tell appdaemon that Andrew is home  
+Alexa: Hi, Andrew nice that you are home again, can i do something for you?  
+That is possible by using the slot name like this {{slot name}} in the text.  
+You also can use the device name that way, so like {{device}}  
+
+### Using special kind of text.  
+As you can see in the yaml i use things like <p></p> in the texts.  
+That is SSML. A special way to make up speech. The SSML you can use with Alexa can be found here:
+https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html#ssml-supported
+
+### Using slots in your code  
+Off course you want to use the slots in your code.  
+Do this if i say warm and that when i say cold.  
+In the apps you can just use the slots you defined in the skill by using slots["slotname"].
+The device you are talking to is saved in the variable called "device"

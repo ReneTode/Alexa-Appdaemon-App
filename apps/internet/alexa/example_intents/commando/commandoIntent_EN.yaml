@@ -1,0 +1,40 @@
+commandoIntent:
+  module: commandoIntent
+  class: commandoIntent
+  Error: <p>something is wrong i cant find the commands</p>
+  Start:
+    - <p>You can say the following things to me, and you can substitute other things for rene, livingroom or terras</p>
+    - <p>The complete commandlist is, and you can substitute other things for rene, livingroom or terras</p>
+    - <p>Here are all commands, and you can substitute other things for rene, livingroom or terras</p>
+  List:
+    - <p>commands with 1 word<p>
+    - <p> </p>
+    - <p>help</p>
+    - <p>youtube</p>
+    - <p>camera</p>
+    - <p>story</p>
+    - <p>yes</p>
+    - <p>no</p>
+    - <p>nothing</p>
+    - <p>bye</p>
+    - <p>short questions like:</p>
+    - <p>what can i do</p>
+    - <p>what can i ask</p>
+    - <p>are the livingroom lights on</p>
+    - <p>is my bed warm</p>
+    - <p>what is the temperature</p>
+    - <p>Where is rene</p>
+    - <p>what does rene</p>
+    - <p>what is rene doing</p>
+    - <p>short statements like:</p>
+    - <p>search on youtube</p>
+    - <p>show video one</p>
+    - <p>rene is awake</p>
+    - <p>or longer sentences like:</p>
+    - <p>what more can i say</p>
+    - <p>what more can i ask</p>
+    - <p>what is the temperature in the livingroom</p>
+    - <p>are the livingroom lights on</p>
+    - <p>I can not tell you all commands, because we would be here a long time </p>
+    - <p>When something doesnt work just tell rene.</p>
+    - <p>He will make it work for you.</p>

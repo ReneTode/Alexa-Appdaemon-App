@@ -1,0 +1,19 @@
+{
+"name": "inKellerIntent",
+"samples": 
+    [
+    "{person} is in the cellar",
+    "{person} is there"
+    ],
+"slots": 
+    [
+    {
+    "name": "person", 
+    "type": "AMAZON.DE_FIRST_NAME", 
+    "samples": 
+         [
+         "{person}"
+         ]
+    }
+    ]
+}

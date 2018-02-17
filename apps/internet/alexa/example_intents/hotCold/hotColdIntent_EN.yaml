@@ -12,6 +12,6 @@ hotColdIntent:
     thermostats:
       - input_number.keukenthermostaata
       - input_number.keukenthermostaatb
-  warmTextline: <p>ok, ich habe der heizung im {{device}} fuer ein halbe stunde auf minimum gestellt</p>
-  coldTextline: <p>ok, ich habe der heizung im {{device}} fuer ein halbe stunde auf maximum gestellt</p>
-  Error: sorry, ich habe dir nicht verstanden.
+  warmTextline: <p>ok, i have set the heating in {{device}} to minimum for 30 minutes</p>
+  coldTextline: <p>ok, i have set the heating in {{device}} to maximum for 30 minutes</p>
+  Error: sorry, i didnt understand you.

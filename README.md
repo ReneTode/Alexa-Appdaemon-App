@@ -7,9 +7,9 @@ But this app contains 2 sets off yaml, english and german.
 To make sure that the app doesnt run twice you need to delete the yaml files from the language you dont want. 
 
 
-## Tutorial.
+## Installation/Tutorial.
 
-A tutorial for how to create the skill and how to configure appdaemon and nginx is included.  
+A tutorial and installation instructions for how to create the skill and how to configure appdaemon and nginx is included.  
 Read it here: 
 https://github.com/ReneTode/Alexa-Appdaemon-App/blob/master/alexa%20skill%20tutorial.md
 
@@ -21,8 +21,8 @@ Below is a list of the included example intents with a short description.
   
 ## Example Intents
 
-1) commando  
-Alexa gives a list from all commando that you have programmed.  
+1) commands  
+Alexa gives a list from all commands that you have programmed.  
 Helpfull for when you live in a house where several people use the skill. this way they can always ask what they can say to Alexa.  
 2) goodmorning  
 I use Alexa to set a sensor (sensor.rene) from Asleep to Home.  

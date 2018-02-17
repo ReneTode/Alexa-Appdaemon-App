@@ -9,13 +9,13 @@ lightStateIntent:
   Error: <p>Ich habe nicht richtig verstanden welches geraet oder sensor du wissen wollte</p>
   unreadableState: "unlesbar fuer mich"
   entities:
-    wohnzimmer temperature: sensor.huiskamer_box_4_1
-    schlaffzimmer temperature: sensor.slaapkamer_1_30_0
-    terrasse temperature: sensor.vijver_repeater_7_0
-    keller temperature: sensor.arduino_kelder_1_0
-    teich temperature: sensor.vijver_repeater_7_1
-    aquarium temperature: sensor.arduino_kelder_1_0
-    kueche temperature: sensor.keuken_10_0
+    wohnzimmer temperatur: sensor.huiskamer_box_4_1
+    schlaffzimmer temperatur: sensor.slaapkamer_1_30_0
+    terrasse temperatur: sensor.vijver_repeater_7_0
+    keller temperatur: sensor.arduino_kelder_1_0
+    teich temperatur: sensor.vijver_repeater_7_1
+    aquarium temperatur: sensor.arduino_kelder_1_0
+    kueche temperatur: sensor.keuken_10_0
     wohnzimmer lampe: input_boolean.woonkamer_verlichting
     esszimmer lampe: input_boolean.eetkamer_verlichting
     keller lampe: input_boolean.keller_lights
