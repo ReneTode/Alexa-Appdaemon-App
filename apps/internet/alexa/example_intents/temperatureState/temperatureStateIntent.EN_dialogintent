@@ -1,0 +1,15 @@
+{
+"name": "temperatureStateIntent",
+"confirmationRequired": false,
+"prompts": {},
+"slots": 
+    [
+    {
+    "name": "location",
+    "type": "mylocations",
+    "elicitationRequired": true,
+    "confirmationRequired": false,
+    "prompts": {"elicitation": "Elicit.Intent-temperatureStateIntent.IntentSlot-location"}
+    }
+    ]
+}

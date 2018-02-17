@@ -1,0 +1,15 @@
+{
+"name": "repeatStoryIntent",
+"samples": 
+    [
+    "repeat story",
+    "repeat the story",
+    "story one more time",
+    "tell the story again",
+    "story again",
+    "last story again",
+    "tell me the last story",
+    "last story",
+    ],
+"slots": []
+}

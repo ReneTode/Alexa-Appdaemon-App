@@ -2,4 +2,4 @@ storyIntent:
   module: storyIntent
   class: storyIntent
   storydir: "/path/to/apps/internet/alexa/geschichte/"
-  Error: <p>Es tut mir leit, aber ich kann keine neue geschichte finden im moment</p>
+  Error: <p>I am sorry but i cant find a new story</p>

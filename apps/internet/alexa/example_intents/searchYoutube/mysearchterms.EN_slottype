@@ -1,0 +1,10 @@
+{
+"name": "mysearchterms",
+"values": 
+     [
+     {"id": null, "name": {"value": "anything", "synonyms": []}},
+     {"id": null, "name": {"value": "two words", "synonyms": []}},
+     {"id": null, "name": {"value": "a short sentence", "synonyms": []}},
+     {"id": null, "name": {"value": "more then three words", "synonyms": []}}
+     ]
+}

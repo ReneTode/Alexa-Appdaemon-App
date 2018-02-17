@@ -1,0 +1,11 @@
+{
+"name": "mylocations",
+"values": 
+     [
+     {"id": null, "name": {"value": "livingroom", "synonyms": []}},
+     {"id": null, "name": {"value": "cellar", "synonyms": []}},
+     {"id": null, "name": {"value": "attic", "synonyms": []}},
+     {"id": null, "name": {"value": "terras", "synonyms": []}},
+     {"id": null, "name": {"value": "bedroom", "synonyms": []}}
+     ]
+}

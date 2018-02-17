@@ -19,8 +19,8 @@ searchYoutubeIntent:
     - "vida6"
     - "vida7"
   normalResponse:
-    - <p>ok, ich habe der suche von {{search}} auf der tablet gezeigt</p>
-    - <p>ok, der {{search}} ist jetzt auf das dashboard</p>
+    - <p>ok, I showed {{search}} on the dashboard</p>
+    - <p>ok, {{search}} is now on the dashboard</p>
   Error:
-    - Es tuet mir leit aber etwas ist falsch gegangen
-    - Leider meldet lindon ein fehler 
+    - I am sorry something has gone wrong
+    - Appdaemon says there is a problem 

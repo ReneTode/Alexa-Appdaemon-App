@@ -1,0 +1,15 @@
+{
+"name": "viewCameraIntent",
+"confirmationRequired": false,
+"prompts": {},
+"slots": 
+   [
+   {
+   "name": "location",
+   "type": "mylocations",
+   "elicitationRequired": true,
+   "confirmationRequired": false,
+   "prompts": {"elicitation": "Elicit.Intent-viewCameraIntent.IntentSlot-location"}
+   }
+   ]
+}

@@ -1,0 +1,17 @@
+showYoutubeIntent:
+  module: showYoutubeIntent
+  class: showYoutubeIntent
+  VideoShowTime: 180
+  YoutubeVideoList:
+    - dash_youtube_single1
+    - dash_youtube_single2
+    - dash_youtube_single3
+    - dash_youtube_single4
+    - dash_youtube_single5
+    - dash_youtube_single6
+  normalResponse:
+    - <p>ok, I did show the video on the dashboard</p>
+    - <p>ok, the video is now on the dashboard</p>
+  Error:
+    - I am sorry, something has gone wrong
+    - Appdaemon says there is an error 

@@ -265,7 +265,7 @@ That name should be identical to the intentname you did chose in the skill devel
 Remember that it is capital sensitive.  
 I suggest to keep names like ...Intent to make sure you always know the difference between normal apps and intent apps.   
 
-## Usage and tips.
+## Part 6 Usage and tips.
 
 ### Device names.  
 When you start using this Alexa wont have any friendly names for the devices you own and use.  
@@ -291,3 +291,11 @@ Off course you want to use the slots in your code.
 Do this if i say warm and that when i say cold.  
 In the apps you can just use the slots you defined in the skill by using slots["slotname"].
 The device you are talking to is saved in the variable called "device"
+
+## Important notes!
+
+Dont forget to remove the YAML files that are not in your language!  
+Dont forget that some YAML files need to be modified to your needs!
+Dont forget that when you create a new intent the name must be the same on amazon, as module name, as appname and as class!!  
+Dont forget an intent ends always with "return text" and the text variable needs to be set in the code before that!  
+

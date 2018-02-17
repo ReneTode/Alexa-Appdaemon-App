@@ -1,0 +1,7 @@
+setBedOlindeOffIntent:
+  module: setBedOlindeOffIntent
+  class: setBedOlindeOffIntent
+  switch: switch.blanket
+  switchedText:
+      - <p>ok, Olinde I turned your blanket off, sleep well.</p><p>When you get cold again just ask me to turn it on again</p>
+      - <p>I turned your blanket off, sleep well.</p>

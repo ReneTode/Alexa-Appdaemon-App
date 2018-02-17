@@ -1,5 +1,5 @@
 repeatStoryIntent:
   module: repeatStoryIntent
   class: repeatStoryIntent
-  storydir: "/mnt/usbdrive/pi/appdaemon/appdaemon/conf/apps/internet/alexa/geschichte/"
+  storydir: "/path/to/apps/internet/alexa/geschichte/"
   Error: <p>Es tut mir leit, aber ich kann keine neue geschichte finden im moment</p>

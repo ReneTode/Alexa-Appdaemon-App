@@ -1,0 +1,10 @@
+sleepIntent:
+  module: sleepIntent
+  class: sleepIntent
+  switch: switch.blanket
+  "on":
+    - <p>Ja Olinde.</p><p>your blanket is on</p> <say-as interpret-as='interjection'>hurray</say-as>.
+    - <say-as interpret-as='interjection'>yeah</say-as>. <p>I think your bed is warm.</p><p>Appdaemon told me so.</p>
+  "off":
+    - <say-as interpret-as='interjection'>Oh no</say-as> <p>No, my love, its cold in your bed</p>
+    - <p>No, I dont think so.</p><p>But, <say-as interpret-as='interjection'>no problem</say-as>. Andrew will make it right for you</p>

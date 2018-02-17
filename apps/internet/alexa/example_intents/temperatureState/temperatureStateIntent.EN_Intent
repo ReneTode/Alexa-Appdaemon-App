@@ -1,0 +1,24 @@
+{
+"name": "temperatureStateIntent",
+"samples": 
+    [
+    "what is the temperature in {location}",
+    "how warm is it in {location}",
+    "how warm is it on the {location}",
+    "what is the temperature on the {location}",
+    "tell me the temperature",
+    "temperature",
+    "what is the temperature",
+    ],
+"slots": 
+    [
+    {
+    "name": "location",
+    "type": "mylocations",
+    "samples": 
+        [
+        "{location}"
+        ]
+    }
+    ]
+}

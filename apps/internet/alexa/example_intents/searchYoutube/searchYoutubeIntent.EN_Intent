@@ -1,0 +1,36 @@
+{
+"name": "searchYoutubeIntent",
+"samples": 
+    [
+    "for youtube about {searchfielda}",
+    "for youtube",
+    "search on youtube",
+    "youtube",
+    "for youtube about {searchfielda} {searchfieldb}",
+    "for youtube about {searchfielda} {searchfieldb} {searchfieldc}",
+    "for youtube about {searchfielda} {searchfieldb} {searchfieldc} {searchfieldd}",
+    ],
+"slots": 
+    [
+    {
+    "name": "searchfielda",
+    "type": "mysearchterms",
+    "samples": 
+        [
+        "{searchfielda}"
+        ]
+    },
+    {
+    "name": "searchfieldb",
+    "type": "mysearchterms"
+    },
+    {
+    "name": "searchfieldc",
+    "type": "mysearchterms"
+    },
+    {
+    "name": "searchfieldd",
+    "type": "mysearchterms"
+    }
+    ]
+}

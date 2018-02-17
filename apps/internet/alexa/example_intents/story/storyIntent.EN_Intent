@@ -1,0 +1,14 @@
+{
+"name": "storyIntent",
+"samples": 
+    [
+    "story",
+    "for a story",
+    "a story please",
+    "tell a story please",
+    "tell me a story",
+    "a new story",
+    "a story"
+    ],
+"slots": []
+}

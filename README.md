@@ -74,10 +74,10 @@ Actually the same as the lightState intent that now tells general entity states,
 14) viewCamera  
 In the yaml you can give friendly names for all cameras you own and have created in home assistant.  
 After you have created a dashboard for those cameras this intent shows the cameradashboard for a set amount of time.
-15) whatDoesSomeone  
+15) whatDoesSomeone  (german only, if you want to use is, please translate)  
 A nice way to entertain your friends. Just create humorous answer for all your friends and Alexa will speak them out.  
 Also included the possibilitie to make distinction between people from your household and from outside.  
-16) woIsSomeone
+16) woIsSomeone  (german only, if you want to use is, please translate)  
 Somewhat like the previous Intent, just with some more specific information bout the household.
 You can predifene dinertimes, when people are at work, on their way home, sleeping, etc.
 Lets you ask wo someone is, without having to think about the timeschedule from that person.

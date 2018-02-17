@@ -1,0 +1,7 @@
+setBedOlindeIntent:
+  module: setBedOlindeIntent
+  class: setBedOlindeIntent
+  switch: switch.blanket
+  switchedText:
+    - <p>ok, Olinde I have turned on your heating blanket</p>
+    - <p>Your heating blanket is now on, but you know it takes a little time to get warm.</p>

@@ -1,0 +1,10 @@
+{
+"name": "yesIntent",
+"samples": 
+    [
+    "yes",
+    "yes please",
+    "please"
+    ],
+"slots": []
+}

@@ -1,0 +1,17 @@
+viewCameraIntent:
+  module: viewCameraIntent
+  class: viewCameraIntent
+  CamShowTime: 30
+  CameraList:
+    garden: dash_terrascam
+    terras: dash_hoofdterrascam
+    cellar: dash_kellercam
+  Error:
+    - I am sorry something has gone wrong
+    - Appdaemon tells me there is an error 
+  normalResponse:
+    - <p>ok, i have placed the camera from {{location}} on the dashboard</p>
+    - <p>ok, the {{location}} camera is now on the dashboard</p>
+  noCamResponse:
+    - <p>Sorry, but i cant find this camera</p>
+    - <p>To bad, but i cant find the camera {{location}}</p>

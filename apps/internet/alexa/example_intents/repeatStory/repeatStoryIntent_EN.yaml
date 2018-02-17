@@ -1,0 +1,5 @@
+repeatStoryIntent:
+  module: repeatStoryIntent
+  class: repeatStoryIntent
+  storydir: "/dir/to/your/apps/internet/alexa/geschichte/"
+  Error: <p>I am sorry but i cant find the story</p>

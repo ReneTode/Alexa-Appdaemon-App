@@ -1,0 +1,7 @@
+{
+"id": "Elicit.Intent-temperatureStateIntent.IntentSlot-location",
+"variations": 
+    [
+    {"type": "PlainText", "value": "from which room or place do you want to know the temperature?"}
+    ]
+}

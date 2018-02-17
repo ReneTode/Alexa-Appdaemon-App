@@ -1,0 +1,18 @@
+{
+"name": "showYoutubeIntent",
+"samples": 
+    [
+    "show video {videonr}",
+    "show video nr {videonr}",
+    "show film nr {videonr}",
+    "show film {videonr}",
+    "show video"
+    ],
+"slots": 
+    [
+    {
+    "name": "videonr",
+    "type": "AMAZON.NUMBER"
+    }
+    ]
+}

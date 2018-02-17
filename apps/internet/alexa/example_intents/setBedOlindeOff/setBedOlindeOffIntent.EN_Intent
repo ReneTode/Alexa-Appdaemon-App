@@ -1,0 +1,12 @@
+{
+"name": "setBedOlindeOffIntent",
+"samples": 
+    [
+    "turn my blanket off",
+    "turn my bed off",
+    "make my bed cold",
+    "my bed is to warm",
+    "turn off my blanket"
+    ],
+"slots": []
+}
